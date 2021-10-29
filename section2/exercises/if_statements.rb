@@ -14,10 +14,10 @@
 
   if weather == 'sunny'
     p "sunscreen"
-  elsif weather == 'sleet'
+  elsif weather == 'rainy'
     p "umbrella"
-  elsif weather == 'snowing'
-    p "snow suit and boots"
+  elsif weather == 'snowy'
+    p "coat"
   elsif weather == 'icy'
     p "yak traks"
   else
@@ -26,6 +26,19 @@
 
 # Experiment with manipulating the value held in variable 'weather'
 # to print something other than 'coat'
+weather = 'snowing'
+
+if weather == 'sunny'
+  p "sunscreen"
+elsif weather == 'sleet'
+  p "umbrella"
+elsif weather == 'snowing'
+  p "snow suit and boots"
+elsif weather == 'icy'
+  p "yak traks"
+else
+  p "good to go!"
+end
 
 
 ##################
